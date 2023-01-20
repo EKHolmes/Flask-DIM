@@ -1,0 +1,1 @@
+Set up a different page to receieve the code, file it into a cookie, redirect from there back to the page that checks the cookie, should be able to use the code in actual API requests.
