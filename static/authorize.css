@@ -1,7 +1,29 @@
 #authButton {
-    width: auto;
-    margin: auto;
     position: absolute;
     top: 50%;
-    transform: translate(0, -50%)
+    left: 50%;
+    background-color: rgb(40, 40, 40);
+    transform: translate(-50%, -50%);
+    border: 3vw solid rgb(40,40,40);
+}
+
+a {
+    font-family: "Monaco", monospace;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3vw;
+    color: white;
+}
+
+
+#mainBody {
+    background-color: darkblue;
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    transform: translate(-50%, -10%);
+    font-family: "Monaco", monospace;
+    left: 50%;
 }
